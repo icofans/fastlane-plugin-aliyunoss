@@ -13,6 +13,7 @@ module Fastlane
         access_key_secret = params[:access_key_secret]
         path_for_app_name = params[:app_name]
         bucket_name = params[:bucket_name]
+        list_buckets = params[:list_buckets]
 
         build_file = params[:apk]
         if build_file.nil?
